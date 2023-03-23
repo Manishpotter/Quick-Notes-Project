@@ -1,0 +1,66 @@
+@import 'utilities.css';
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1rem 1rem;
+    position: sticky;
+    margin-bottom: 2rem;
+}
+.left{
+    display: flex;
+    color: white;
+}
+
+.note_name{
+    padding-right: 3rem;
+}
+.srh{
+    border-radius: 5px;
+    padding: 4px 0;
+    border-style: none;
+}
+
+.title{
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+    padding-bottom: .5rem;
+}
+
+.add_box{
+    border: 1px solid grey;
+    padding: 1rem 1rem;
+}
+
+#add_note{
+    height: 10em;
+    width: 100%;
+    background-color: darkgrey;
+    margin-bottom: .5rem;
+}
+
+#your_notes_title{
+    margin-top: 1rem;
+}
+.card_container{
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 2rem;
+}
+
+.card{
+    border: 1px solid red;
+    height: 23%;
+    width: 23%;
+    padding: 1rem 1rem;
+    margin-right: 1rem;
+}

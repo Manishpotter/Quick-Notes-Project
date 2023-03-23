@@ -1,0 +1,22 @@
+.txt_center{
+    text-align: center;
+}
+
+.btn{
+    padding: 2px 20px;
+    background-color: white;
+    border-radius: 4px;
+    color: blue;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: red;
+    border-color: aqua;
+}
+
+.same_order{
+    width: 60%;
+    height: 20%;
+    margin: auto;
+}
